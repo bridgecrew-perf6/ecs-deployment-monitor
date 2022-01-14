@@ -4,10 +4,10 @@
   "description": "Monitor an ECS Deployment",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --recursive"
+    "test": "mocha --recursive"
   },
   "bin": {
-    "ecs-deployment-monitor": "./bin/ecs-deployment-monitor"
+    "ecs-deployment-monitor": "bin/ecs-deployment-monitor"
   },
   "author": "Coen Hyde",
   "license": "MIT",
@@ -30,5 +30,18 @@
     "requirize": "^0.2.0",
     "winston": "^3.2.1",
     "yargs": "^15.0.2"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanwek/ecs-deployment-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yanwek/ecs-deployment-monitor/issues"
+  },
+  "homepage": "https://github.com/yanwek/ecs-deployment-monitor#readme"
 }
