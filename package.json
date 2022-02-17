@@ -1,6 +1,6 @@
 {
   "name": "@yanwek/ecs-deployment-monitor",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Monitor an ECS Deployment",
   "main": "index.js",
   "scripts": {
